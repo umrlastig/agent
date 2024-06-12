@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<link href="/style.css" rel="stylesheet" type="text/css">
+<title>Ottawa Presentations/Text</title>
+</head>
+<body>
+<h1>Text of Ottawa Presentations</h1>
+
+<h2><a href="sld001.html">The Application of Agents in Automated
+Map Generalization</a></h2>
+
+<ul>
+<li>Sylvie Lamy, Anne Ruas (Institut G&eacute;ographique
+National, F)</li>
+
+<li>Yves Demazeau (Institut National Polytechnique de Grenoble,
+F)</li>
+
+<li>Mike Jackson (Laser-Scan, UK)</li>
+
+<li>William Mackaness (University of Edinburgh, UK)</li>
+
+<li>Robert Weibel (University of Zurich, CH)</li>
+</ul>
+
+<h2><a href="sld002.html">Acknowledgements</a></h2>
+
+<ul>
+<li>This presentation provides an overview of the AGENT project.
+Specific research results can be found in publications by
+individual members of the five partner institutions of the AGENT
+consortium.</li>
+
+<li>The R&amp;D background of the partner institutions has also
+been absorbed in the AGENT project and prototype.</li>
+
+<li>The contributions of the other members of the AGENT
+consortium to the progress of the project are gratefully
+acknowledged.</li>
+</ul>
+
+<h2><a href="sld003.html">Cartography and Generalization</a></h2>
+
+<ul>
+<li>Focus on topographic cartography (IGN) and Internet</li>
+
+<li>Large background:
+
+<ul>
+<li>Many years R&amp;D in generalization (IGN, UNI-ZH,
+UNI-ED)</li>
+
+<li>Lamps2/Generalizer: Interactive generalization module</li>
+</ul>
+</li>
+</ul>
+
+<h2><a href="sld004.html">Interactive Generalization</a></h2>
+
+<ul>
+<li>Selection, displacement, typification, aggregation,
+exaggeration, ...</li>
+
+<li>Traditionally is labor-intensive, tedious task involving
+re-compilation</li>
+
+<li>Production agencies have style manuals</li>
+
+<li>Different cartographers give different results</li>
+
+<li>Computers have helped, but still manual</li>
+</ul>
+
+<h2><a href="sld005.html">Automated Generalization</a></h2>
+
+<ul>
+<li>There is still a need paper for products at different
+scales.</li>
+
+<li>Generalization is increasingly important for &quot;mapping on
+demand&quot;, particularly for internet mapping</li>
+</ul>
+
+<dl>
+<dt><em>AGENT =</em></dt>
+
+<dd><em>Automated GEneralization - New
+Technology.</em></dd>
+</dl>
+
+<h2><a href="sld006.html">The AGENT Project</a></h2>
+
+<ul>
+<li>21 man years over a 3 year period</li>
+
+<li>Objectives of the project:
+
+<ul>
+<li>Better algorithms</li>
+
+<li>Better measures and assessment tools</li>
+
+<li>Better constraints</li>
+
+<li>Self-evaluating methods</li>
+
+<li>Strategies and orchestration</li>
+
+<li>Better decisions via multi-agent systems</li>
+</ul>
+</li>
+
+<li>Expected results: prototype implementation and two
+demonstrators (and of course publications...)</li>
+</ul>
+
+<h2><a href="sld007.html">The Consortium - Roles of
+Partners</a></h2>
+
+<table>
+<tr>
+<td></td>
+<th align="center">Generalisation</th>
+<th align="center">OODB</th>
+<th align="center">MAS</th>
+</tr>
+
+<tr>
+<th align="left">Uni Zurich</th>
+<td align="center">+++</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<th align="left">Uni Edinburgh</th>
+<td align="center">+++</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<th align="left">IGN Paris</th>
+<td align="center">+</td>
+<td align="center">+</td>
+<td align="center">+</td>
+</tr>
+
+<tr>
+<th align="left">Laser-Scan</th>
+<td align="center">+</td>
+<td align="center">++</td>
+<td></td>
+</tr>
+
+<tr>
+<th align="left">INP Grenoble</th>
+<td align="center">+</td>
+<td></td>
+<td align="center">++</td>
+</tr>
+</table>
+
+<h2><a href="sld008.html">What is an Agent ???</a></h2>
+
+<ul>
+<li>Real or virtual entity</li>
+
+<li>Evolves in an environment</li>
+
+<li>Is able to perceive this environment</li>
+
+<li>Is able to act in this environment</li>
+
+<li>Can communicate with other agents</li>
+
+<li>Exhibits, as a consequence of the above, an autonomous
+behaviour</li>
+
+<li>Reactive (simple) or cognitive (more complex)</li>
+</ul>
+
+<h2><a href="sld009.html">What is a Multi-Agent-System (MAS)
+?</a></h2>
+
+<ul>
+<li>A set of agents which interact in a common environment.</li>
+
+<li>Focus on the collaborative resolution of global problems by a
+set of distributed entities.</li>
+
+<li>Agents attempt to satisfy their own local goals as well as
+the collaborative global goals.</li>
+</ul>
+
+<h2><a href="sld010.html">Multi-Agent-Systems and
+Generalization</a></h2>
+
+<ul>
+<li>Status of generalization in consortium:
+
+<ul>
+<li>already object-oriented approach (Gothic/Lamps2)</li>
+</ul>
+</li>
+
+<li>Why MAS for generalization?
+
+<ul>
+<li>capturing the holistic aspects</li>
+
+<li>better catering to the multi-level problem</li>
+
+<li>allowing more dynamic choices</li>
+
+<li>enabling autonomy vs. full user control</li>
+</ul>
+</li>
+
+<li>Why generalization for MAS?
+
+<ul>
+<li>exploring a real-size technology transfer</li>
+
+<li>enhancing MAS methodology</li>
+</ul>
+</li>
+</ul>
+
+<h2><a href="sld011.html">Basic Architecture of an Agent</a></h2>
+
+<h3>INPUT: perception stimuli</h3>
+
+<ul>
+<li>PC perception capabilities (first hand)</li>
+
+<li>CC communication capabilities (second hand)</li>
+
+<li>K knowledge</li>
+
+<li>RC reasoning capabilities</li>
+
+<li>DC decision capabilities</li>
+
+<li>EC execution capabilites</li>
+
+<li>G goals</li>
+
+<li>P possible plans</li>
+
+<li>C choices</li>
+
+<li>A actions</li>
+</ul>
+
+<h3>OUTPUT: actions on agents or environment</h3>
+
+<h2><a href="sld012.html">Creating Agents at Different
+Levels</a></h2>
+
+<ul>
+<li>Recursive subdivision and creation of agents</li>
+
+<li>Includes spatial processing: Partitioning,clustering,...</li>
+</ul>
+
+<h2><a href="sld013.html">Meso-agents</a></h2>
+
+<h2><a href="sld014.html">Why Meso-agents ?</a></h2>
+
+<p>Generalization of urban situations needs knowledge about
+neighbors</p>
+
+<h2><a href="sld015.html">The Responsibility of a
+Meso-agent</a></h2>
+
+<h2><a href="sld016.html">The Micro-agent</a></h2>
+
+<h2><a href="sld017.html">Constraints on Buildings</a></h2>
+
+<ul>
+<li><em>Size constraint</em>: Building should have a
+minimum size to be legible. This size depends on scale and symbol
+thresholds.</li>
+
+<li><em>Width constraint</em>: The width within a
+building should be wide enough to avoid conflict.</li>
+
+<li><em>Accuracy constraint</em>: The absolute position
+of a building should be preserved as much as possible.</li>
+
+<li><em>Orientation constraint</em>: The orientation of a
+building should be preserved.</li>
+
+<li>And others, such as shape constraints, etc.</li>
+</ul>
+
+<h2><a href="sld018.html">From Constraints to Goals</a></h2>
+
+<ul>
+<li>I should be big enough</li>
+
+<li>I should be wide enough</li>
+
+<li>I should try to preserve my shape</li>
+
+<li>I should not be too far to my initial position</li>
+
+<li>I should try to preserve my original orientation</li>
+</ul>
+
+<h2><a href="sld019.html">Goals</a></h2>
+
+<table>
+<tr>
+<td>Size:</td>
+<td>&gt; 300m2</td>
+</tr>
+
+<tr>
+<td>Internal_width:</td>
+<td>&gt; 20m</td>
+</tr>
+
+<tr>
+<td>Hausdorff_dist:</td>
+<td>&lt; 20m (from initial position)</td>
+</tr>
+
+<tr>
+<td>Main_orientation:</td>
+<td>in [Initial_main_orient - 0.1, Initial_main_orient +
+0.1]</td>
+</tr>
+</table>
+
+<h2><a href="sld020.html">Analysis of a Building</a></h2>
+
+<h2><a href="sld021.html">Finding an Acceptable Solution</a></h2>
+
+<h2><a href="sld022.html">Agent Base Class - Agent State
+Diagram</a></h2>
+
+<h2><a href="sld023.html">Meso-agent: Internal Actions</a></h2>
+
+<h3>Constraints / Goals</h3>
+
+<ul>
+<li>Ensure min. distance</li>
+
+<li>Maintain alignment</li>
+
+<li>Maintain shared primitives</li>
+
+<li>...</li>
+</ul>
+
+<h3>Actions</h3>
+
+<ul>
+<li>Displace</li>
+
+<li>Amalgamate</li>
+
+<li>Eliminate</li>
+</ul>
+
+<h2><a href="sld024.html">Demonstrators from the AGENT
+Project</a></h2>
+
+<h2><a href="sld025.html">Current Status of Project</a></h2>
+
+<ul>
+<li>About half-way, and on schedule</li>
+
+<li>Independent generalisation (micro-agents) is implemented and
+currently being refined</li>
+
+<li>Contextual generalisation (meso-agents) is being developed
+now, nearing completion (version 2)</li>
+
+<li>Strategic generalisation (macro-agents) follows next
+year</li>
+
+<li>Partnership is working well, and first results look
+promising</li>
+</ul>
+
+<hr>
+<p><em>Home Page:</em> <a href="http://agent.ign.fr">
+http://agent.ign.fr</a></p>
+</body>
+</html>
+

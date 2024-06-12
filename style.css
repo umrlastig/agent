@@ -1,0 +1,32 @@
+BODY {
+  background: white;
+  color: black;
+  font-family: serif, Times, "Times New Roman" }
+
+EM { font-style: normal; font-weight: bold;
+  color: Red }
+
+STRONG { font-style: normal; font-weight: bold;
+  background: Red; color: white } 
+
+HR { border-color: navy }
+
+P:first-letter { font-size: 200%; float: left }
+
+H1, H2, H3, H4, H5, H6 {
+  color: navy }
+
+H1, H2, H3, H4, H5 {
+  font-family: sans-serif, Arial, Helvetica;
+  font-style: normal;
+  font-weight: normal }
+
+H6 { font-style: italic }
+
+H1, H2, H3, H4 { margin-left: 0% }
+
+H3 { font-size: 126% }
+
+H2 { text-align: center; font-size: 159% }
+
+H1 { border: solid navy; text-align: center; font-size: 200% }
